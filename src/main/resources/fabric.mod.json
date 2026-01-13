@@ -17,7 +17,10 @@
       "org.arnova.worldinspectorstick.client.WorldinspectorstickClient"
     ],
     "main": [
-      "WorldInspectorStick"
+      {
+        "adapter": "kotlin",
+        "value": "org.arnova.worldinspectorstick.WorldInspectorMod"
+      }
     ]
   },
   "mixins": [
