@@ -8,7 +8,7 @@ import net.minecraft.registry.Registries
 import net.minecraft.registry.Registry
 import net.minecraft.registry.RegistryKey
 import net.minecraft.util.Identifier
-import org.arnova.worldinspectorstick.item.WorldInspectorStick
+import org.arnova.worldinspectorstick.item.WorldInspectorController
 
 object WorldInspectorMod : ModInitializer {
 
@@ -21,7 +21,7 @@ object WorldInspectorMod : ModInitializer {
         val INSPECTOR_STICK = Registry.register(
             Registries.ITEM,
             WORLD_INSPECTOR_STICK_ID,
-            WorldInspectorStick(
+            WorldInspectorController(
                 Item.Settings()
                     .maxCount(1)
                     .registryKey(
